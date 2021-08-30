@@ -1,0 +1,15 @@
+body{
+    background-color: lightgrey;  
+}
+p{
+    color:red; background-color:green;
+}
+h1{
+    color: blue;
+}
+h2{
+    color:#BA521F;
+}
+h3{
+    color:rgb(120, 234, 88);
+}
