@@ -3,6 +3,8 @@ body{
 }
 p{
     color:red; background-color:green;
+    font-size: 10%;
+    font-size: 400%;
 }
 h1{
     color: blue;

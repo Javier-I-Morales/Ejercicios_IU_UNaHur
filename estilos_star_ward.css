@@ -28,3 +28,27 @@
     font-style: italic;
 }
 
+#imperio *{
+
+    background-color: black;
+    color: red;
+}
+
+#reveldes *{
+    background-color: #ffa500;
+    color: rgb(255, 255, 255)
+}
+
+#nombre_darth_vader *{
+    background-color:darkgray;
+}
+
+#nombre_luck *{
+    background-color:darkgray;
+}
+
+#originales{
+    background-color: blue;
+    color:white;
+}
+

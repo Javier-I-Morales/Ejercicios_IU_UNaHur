@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Social Pet</title>
+
+    </head>
+    <body>
+        <h1>PetBook</h1>
+        <p>Hola, y gracias por entrar a PetBook.. esta es una red social para poder decirle al mundo quién es nuestro mejor amig@
+            y poder ver a otros mejores amig@s de todo el mundo...!!
+        </p><br>
+
+        <h2>Empecemos cargando algunos datos</h2><br>
+
+        <form action="https://formspree.io/jaloazel@hotmail.com" method="POST">
+            <label>Nombre:<input type="text" name="username" placeholder="Nombre de tu amig@" required></label><br>
+            <label>Edad:<input type="number" name="edad" placeholder="su edad" required></label><br>
+            <label for="label_email">Email:</label><input type="email" id="label_email" name="email" placeholder="email" required><br>
+            <label for="label_contraseña">Password:</label><input type="password" id="label_contraseña" name="password" placeholder="password" required><br><br>
+            <label for="favcolor">Selecciona el color de tu amig@:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+            <b>Selecciona su genero:</b>
+            <label for="sexo">Macho:</label><input type="radio" name="genero" id="sexo" value="macho"><label for="sexo">Hembra</label><input type="radio" name="genero" id="sexo" value="hembra"><br><br>
+            <label for="tipo">Ahora selecciona el tipo:</label><select name="tipo_de_mascota" id="" required>
+                <option value=""></option>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="ave">Ave</option>
+                <option value="pez">Pez</option>
+            </select><br><br>
+            <label for="bases_y_condiciones">Acepto las bases y condiciones.</label><input type="checkbox" name="bases_y_condiciones" id="bases_y_condiciones" value="acepta"><br><br>
+            <label for="descripcion">Contanos como es tu mascota:</label><br><textarea name="" id="descripcion" cols="40" rows="10"></textarea><br><br>
+            <input type="submit">
+        </form>
+        
+    </body>
+</html>
