@@ -7,7 +7,7 @@
     background-color: blue;
 }
 
-.soldados{
+.borde_soldados{
     border: double;
     letter-spacing: 5px;
 }
