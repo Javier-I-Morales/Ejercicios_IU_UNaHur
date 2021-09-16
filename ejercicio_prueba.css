@@ -1,43 +1,49 @@
 
-
+body{
+    background-color: rgb(76, 76, 76);
+}
 
 h1{
-    color: blueviolet;
-    text-align: center;
+    font: 2em sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
 }
 
-
-h2{
-    text-align: Center;
-    text-transform: uppercase;
-    text-decoration:underline;
+nav{
+    background-color: rgba(66, 66, 66, 0.50);
+    text-align: right;
 }
 
-h4:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease-in;
+.nav-enlaces{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 25px 30px 25px;
+    text-decoration: none;
 }
 
-section{
-    text-align: center;
-    background-color: brown;
-    height: 600px;
-    padding-top: 25px;
+.nav-enlaces:hover{
+    transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
 }
 
-#asideDerecha{
-    text-align: center;
-    background-color: blue;
-    float: left;
-    height: 600px;
-    width: 200px;
+#seccionSuperior{
+    color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 3%;
+
 }
 
-#asideIzquierda{
-    background-color: blue;
-    float: right;
-    height: 600px;
-    width: 200px;
-}
+#seccionInferior{
+    
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width:99%;
+    height:40%;
+    position:fixed;
+    bottom: 0;
+    
 
+}
 

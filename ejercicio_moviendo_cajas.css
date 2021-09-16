@@ -1,0 +1,43 @@
+
+
+#uno{
+    height: 200px;
+    border: solid red 3px;
+    background-color: gray;
+    position: static;
+}
+
+#dos{
+    height: 200px;
+    border: solid red 3px;
+    background-color: orange;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+#tres{
+    height: 200px;
+    border: solid red 3px;
+    background-color: lime;
+    position: fixed;
+    width:25%;
+    bottom: 50px;
+    right: 100px;
+    z-index: 2;
+}
+
+#cuatro{
+    height: 200px;
+    border: solid red 3px;
+    /*position: relative;*/
+}
+
+#cinco{
+    background-color: yellow;
+    right: 25%;
+    width:25%;
+    position: absolute;
+    top:15px;
+    left:15px;
+}

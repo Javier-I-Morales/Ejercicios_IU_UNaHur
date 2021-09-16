@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navbar{
+    background-color: #8AA399;
+}
+
+#contenido{
+    width: 70%;
+    background-color: #EDF7F6;
+    float: left;
+}
+
+#sidebar{
+    width: 31%;
+    background-color: #F19953;
+    float: left;
+}
