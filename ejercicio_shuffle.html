@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <link rel="stylesheet" href="ejercicio_shuffle.css" type="text/css">
+    <body>
+        <div id="source">
+            soy el div que tiene source.
+
+        </div>
+        <div id="destination">
+            soy el div que tiene destination.
+
+        </div>
+        
+        <p><s id="swap_1"></s></p>
+        <p><s id="swap_2"></s></p>
+
+        <button>boton</button>
+        <p id="parrafo">texto que va a cambiar con el click en el boton</p>
+        <script>
+            var div_source = document.getElementById("source")
+            document.getElementById("destination").innerHTML+=div_source.textContent
+            
+            var los_s = document.querySelectorAll("s")
+            
+            function cambiar(){
+                for(var i = 0; i < los_s.length; i++){
+                    los_s[i].setAttribute("id","swap_"+(los_s.length - (i)).toString())
+                }
+            }
+            setTimeout("cambiar()", 3000)
+
+            var boton = document.querySelector("button")
+            var parrafo = document.getElementById("parrafo")
+            boton.addEventListener("click",function(){
+                parrafo.textContent="alguien hizo click..!!"
+            })
+            
+        </script>
+    </body>
+</html>

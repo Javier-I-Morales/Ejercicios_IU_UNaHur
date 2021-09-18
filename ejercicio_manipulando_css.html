@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="ejercicio_manipulando_css.css">
+    </head>
+    <body>
+        
+        <div >
+            
+        </div>
+        <script>
+            var estilo_div=document.querySelector("div")
+            /*
+            estilo_div.style.height="300px";
+            estilo_div.style.width="500px";
+            estilo_div.style.backgroundColor="red";*/
+            estilo_div.classList.add("square");
+            function parpadear(){
+                estilo_div.classList.toggle("square");
+            }
+            setInterval(parpadear, 1000);
+        </script>
+    </body>
+</html>

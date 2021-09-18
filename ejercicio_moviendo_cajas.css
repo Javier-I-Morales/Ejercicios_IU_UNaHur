@@ -37,7 +37,7 @@
     background-color: yellow;
     right: 25%;
     width:25%;
-    position: absolute;
+    /*position: absolute;*/
     top:15px;
     left:15px;
 }
