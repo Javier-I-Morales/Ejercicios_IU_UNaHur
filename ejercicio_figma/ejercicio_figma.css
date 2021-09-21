@@ -1,0 +1,185 @@
+* {box-sizing: border-box;}
+
+body{
+    background: #FFFFFF;
+}
+
+.titulo{
+    position: relative;
+    margin: 10% 0 0 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.login_cartel{
+    position: relative;
+    width: 100%;
+    height: 125px;
+    padding-top: 0.5px;
+    background: #00B3A1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align:center;
+    color: #FFFFFF;
+}
+
+.formulario{
+    position: relative;
+    margin-top: 2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.input_login{
+    width: 520px;
+    height: 37px;
+    background: #F8FEFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+form .p_login{
+    color: #BBBBBB;
+}
+
+select{
+    color: #49AFCD;
+}
+
+option{
+    color: #000000;
+}
+
+form .boton_login{
+    width: 137px;
+    height: 43px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background: #49AFCD;
+    /*box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    border-radius: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.div_imagen_principal{
+    position: relative;
+}
+
+.img_imagen_principal{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 1000px;
+    background-color: #49AFCD;
+    margin: 20px 0 0 80px;
+}
+
+.div_boton_solicitudes_principal{
+    position: relative;
+    height: 165px;
+    text-align: right;
+}
+
+.boton_div_solicitud{
+    width: 137px;
+    height: 43px;
+    margin: 100px 80px;
+    background:#00B3A1;
+    /*box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    border-radius: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.linea_principal{
+    margin-top: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+.cartel_principal{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-top: 0.5px;
+    color: #00B3A1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+    text-align:center;
+    background-color: #FFFFFF;
+}
+
+.p_cartel_principal{
+    margin-top:  10px;
+}
+
+.descripcion_principal{
+    height: 100px;
+}
+
+.end_page{
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: #333333;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align:center;
+    color: #FFFFFF;
+}
+
+.p_s_cartel_principal{
+    position: relative;
+    top: 15px;
+    margin-top: 2px;
+}
+
+.p_i_cartel_principal{
+    position: relative;
+    font-size: 20px;
+    top: -5px;
+}
+
+.cuadro_solicitudes{
+    position: relative;
+    width: 100%;
+    height: 539px;
+    background: #333333;
+    align-content: center;
+}
+
+.solicitud{
+    position: absolute;
+    width: 98.5%;
+    height: 250px;
+    margin: 5px 10px 5px 10px;
+    background-color: #CCCCCC;
+}
+
