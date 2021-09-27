@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="estilos.css" type="text/css">
+
+    </head>
+    <body>
+
+        <div id="techo"></div>
+
+        <div id="subtecho">
+
+            <div class="div_contenedor">
+
+                <img id="logo_posicion" src="logo_techo.png" alt="">
+
+                <strong id="texto_posicion">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</strong>
+
+            </div>
+
+        </div>
+        
+        <hr>
+
+        <div>
+            <p id="nombre_usuario">NOMBRE DEL USUARIO LOGEADO</p>
+        </div>
+
+        <form id="buscador" action="" method="get" >
+            <label for="medicamento"><strong >Indique el medicamento:</strong>
+                <input id="caja_buscar" type="text" name="medicamento">
+                <input type="image" src="lupa.png" id="lupa">
+            </label>
+        </form>
+
+        <hr>
+
+        <div id="contenido_descuento">
+        
+        <!--------------------------region de carga de datos--------------------------------------------
+
+            PARA UTILIZAR EL BUSCADOR ESTAN CARGADOS LOS REMEDIOS: aspirina, paracetamol, ibuprofeno.
+            
+            SI PROBAS OTRO TAMBIEN TIRA MENSAJE QUE NO HAY OFERTA.
+
+        ------------------------------------------------------------------------------------------------->
+
+        </div>
+
+        <div>
+            <input type="image" src="logo_ayuda.png" id="logo_ayuda">
+        </div>
+
+        <hr>
+        <div id="posicion_boton_salir">
+            <a href="pagina_login.html"><input class="boton_salir" type="button" value="SALIR"></a>
+        </div>
+
+        <hr id="linea_final">
+
+        <div id="piso">
+            <img id="logo_piso" src="logo_piso.png" alt="">
+            <div class="datos_piso">Teléfonos útiles</div>
+            <div class="datos_piso">102 <br><br>Niñez y Adolescencia</div>
+            <div class="datos_piso">103 <br><br>Emergencias</div>
+            <div class="datos_piso">107 <br><br>SAME</div>
+            <div class="datos_piso">911 <br><br>Policía</div>
+            <div class="datos_piso">147 <br><br>Atención ciudadana</div>
+            <div class="datos_piso">144 <br><br>Violencia de género</div>
+            <div></div>
+        </div>
+
+        <script src="script_principal.js"></script>
+    </body>
+</html>
