@@ -1,59 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas Ciudad</title>
 
-        <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
 
-    </head>
-    <body>
+</head>
+<body>
+    <div id="techo"></div>
 
-        <div id="techo"></div>
+    <div id="subtecho">
 
-        <div id="subtecho">
+        <div class="div_contenedor">
 
-            <div class="div_contenedor">
+            <img id="logo_posicion" src="logo_techo.png" alt="">
 
-                <img id="logo_posicion" src="logo_techo.png" alt="">
-
-                <strong id="texto_posicion">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</strong>
-
-            </div>
+            <strong id="texto_posicion">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</strong>
 
         </div>
+
+    </div>
+        
+    <hr>
+
+    <form class="formulario" id="formulario" action="principal.html" method="post">
+
+        <label for="nombre">Nombre<br><input type="text" class="input_login" name="nombre" placeholder="" id="nombre" required></label><br>
+
+        <label for="usuario">Usuario<br><input type="text" class="input_login" name="usuario" placeholder="" id="usuario" required></label><br>
             
-        <hr>
+        <label for="password">Contraseña<br><input type="password" class="input_login" name="pass" placeholder="" id="password" required></label><br>
+            
+        <p class="p_login">Si olvido la contraseña <br> haga click <a id="mailtoo_aqui" href="mailto:podemosayudarte@buenosairesciudad.com.ar">aqui</p></a>
 
-        <form class="formulario" id="formulario" action="principal.html" method="post">
+        <input class="boton_login" type="submit" value="Ingresar" id="boton_enviar" >
 
-            <label for="nombre">Nombre<br><input type="text" class="input_login" name="nombre" placeholder="" id="nombre" required></label><br>
+    </form>
 
-            <label for="usuario">Usuario<br><input type="text" class="input_login" name="usuario" placeholder="" id="usuario" required></label><br>
-                
-            <label for="password">Contraseña<br><input type="password" class="input_login" name="pass" placeholder="" id="password" required></label><br>
-                
-            <p class="p_login">Si olvido la contraseña <br> haga click <a id="mailtoo_aqui" href="mailto:podemosayudarte@buenosairesciudad.com.ar">aqui</p></a>
-
-            <input class="boton_login" type="submit" value="Ingresar" id="boton_enviar" >
-
-        </form>
-
-        <hr id="linea_final">
+    <hr id="linea_final">
 
 
-        <div id="piso">
-            <img id="logo_piso" src="logo_piso.png" alt="">
-            <div class="datos_piso">Teléfonos útiles</div>
-            <div class="datos_piso">102 <br><br>Niñez y Adolescencia</div>
-            <div class="datos_piso">103 <br><br>Emergencias</div>
-            <div class="datos_piso">107 <br><br>SAME</div>
-            <div class="datos_piso">911 <br><br>Policía</div>
-            <div class="datos_piso">147 <br><br>Atención ciudadana</div>
-            <div class="datos_piso">144 <br><br>Violencia de género</div>
-            <div class="datos_piso">Redes <br><br><a href="https://www.facebook.com/GCBA/"><img src="logo_face.png" alt=""></a></div>
-        </div>
+    <div id="piso">
+        <img id="logo_piso" src="logo_piso.png" alt="">
+        <div class="datos_piso">Teléfonos útiles</div>
+        <div class="datos_piso">102 <br><br>Niñez y Adolescencia</div>
+        <div class="datos_piso">103 <br><br>Emergencias</div>
+        <div class="datos_piso">107 <br><br>SAME</div>
+        <div class="datos_piso">911 <br><br>Policía</div>
+        <div class="datos_piso">147 <br><br>Atención ciudadana</div>
+        <div class="datos_piso">144 <br><br>Violencia de género</div>
+        <div class="datos_piso">Redes <br><br><a href="https://www.facebook.com/GCBA/"><img src="logo_face.png" alt=""></a></div>
+    </div>
 
-        <script src="script_login.js"></script>
-
-    </body>
-
+    <script src="script_login.js"></script>
+    
+</body>
 </html>
